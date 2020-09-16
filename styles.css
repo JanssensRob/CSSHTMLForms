@@ -1,0 +1,53 @@
+body.index{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body.about{
+    text-align: center;
+    font-family: Verdana;
+
+}
+#italia{
+    background-color:rosybrown ;
+}
+#austria{
+    background-color:salmon ;
+}
+#espana{
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: none;
+}
+ul.ulnav{
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    text-align: center;
+    margin: 5px;
+}
+@media screen and (min-width: 320px)
+{
+h1.titel,h2.titel2, h3, p, #italia, #austria, #espana, ul, li {
+    color:white;
+    font-size: 40px;
+    background-color: grey;}
+li.google, li.youtube, li.nu.nl, li.tweakers{
+    text-align: left;
+}
+}
+@media screen and (min-width: 768px)
+{
+h1.titel,h2.titel2, h3, p, #italia, #austria, #espana, ul, li {
+    color:lightgrey;
+    font-size:30px;
+    background-color:lightcyan;}
+}
+@media screen and (min-width: 1024px)
+{
+    h1.titel, h2.titel2, h3, p, #italia, #austria, #espana, ul, li{
+    color:black;
+    font-size:20px;
+    background-color: lightgrey;}
+}
